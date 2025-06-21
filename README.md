@@ -34,9 +34,7 @@ content
 }
 
 ## criar post
-graphql
-Copiar
-Editar
+graphql > Copiar > Editar
 
 ## criar comentário
 mutation {
@@ -45,17 +43,3 @@ id
 content
 }
 }
-
-## estrutura do projeto
-src/
-└── main/
-├── java/
-│   └── com/quickproject/graphql_springboot/
-│       ├── GraphqlSpringbootApplication.java
-│       ├── ForumController.java
-│       ├── PostService.java
-│       ├── CommentService.java
-│       ├── Post.java
-│       └── Comment.java
-└── resources/
-└── schema.graphqls
